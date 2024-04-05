@@ -28,6 +28,7 @@ board2 = [
 #
 # solution
 #
+# 
 class Solution:
     def IsVsalidSudoku(self,board:List[List[str]])->bool:
         cols=collections.defaultdict(set)
@@ -47,3 +48,4 @@ class Solution:
         return True
 
 print(f'board valudity is {Solution().IsVsalidSudoku(board1)}')
+#
